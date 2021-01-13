@@ -93,7 +93,8 @@ body {
 
 /* What we do and Team */
 .about-title,
-.team-title {
+.team-title,
+.description-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
