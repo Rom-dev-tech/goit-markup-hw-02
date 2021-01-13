@@ -22,6 +22,9 @@ body {
 .list {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 /* Logo */
 .logo {
@@ -31,7 +34,6 @@ body {
   line-height: 1.19;
 
   color: var(--black-text-color);
-  text-decoration: none;
 }
 .accent {
   color: var(--accent-text-color);
@@ -39,7 +41,6 @@ body {
 
 /* Header */
 .nav-link {
-  text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -123,11 +124,40 @@ body {
 .footer {
   background-color: var(--bgc-hero-color);
 }
-.footer-link {
-  text-decoration: none;
+.footer-link,
+.footer-address {
   font-style: normal;
   color: var(--footer-text-color);
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-text-color);
+}
 .withe {
   color: var(--white-text-color);
+}
+
+/* Portfolio */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
